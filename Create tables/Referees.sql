@@ -1,4 +1,4 @@
-CREATE TABLE referees 
+CREATE TABLE Referees 
 (
 id INT AUTO_INCREMENT,
 first_name VARCHAR(30),
