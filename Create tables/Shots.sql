@@ -10,5 +10,9 @@ is_goal BOOLEAN,
 is_during_overtime BOOLEAN,
 is_penalty_during_play BOOLEAN,
 is_penalty_shootout BOOLEAN,
-PRIMARY KEY (id)
+PRIMARY KEY (id),
+FOREIGN KEY (match_id) REFERENCES Matches(id),
+FOREIGN KEY (player_assist_id) REFERENCES Players(id),
+FOREIGN KEY (player_shooter_id) REFERENCES Players(id),
+FOREIGN KEY (team_id) REFERENCES Teams(id)
 )
