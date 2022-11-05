@@ -1,0 +1,33 @@
+id,abbreviation,country,flag_url,group_name
+1,NZL,New Zealand (H),https://countryflagsapi.com/png/nzl,Group A
+2,NOR,Norway,https://countryflagsapi.com/png/norway,Group A
+3,PHI,Philippines,https://countryflagsapi.com/png/philippines,Group A
+4,SUI,Switzerland,https://countryflagsapi.com/png/switzerland,Group A
+5,AUS,Australia (H),https://countryflagsapi.com/png/australia,Group B
+6,IRL,Republic of Ireland,https://countryflagsapi.com/png/ireland,Group B
+7,NGA,Nigeria,https://countryflagsapi.com/png/nigeria,Group B
+8,CAN,Canada,https://countryflagsapi.com/png/canada,Group B
+9,ESP,Spain,https://countryflagsapi.com/png/spain,Group C
+10,CRC,Costa Rica,https://countryflagsapi.com/png/cri,Group C
+11,ZAM,Zambia,https://countryflagsapi.com/png/zambia,Group C
+12,JPN,Japan,https://countryflagsapi.com/png/japan,Group C
+13,ENG,England,https://countryflagsapi.com/png/england,Group D
+14,-,Play-off Group B winners,-,Group D
+15,DEN,Denmark,https://countryflagsapi.com/png/denmark,Group D
+16,CHN,China,https://countryflagsapi.com/png/china,Group D
+17,USA,United States,https://countryflagsapi.com/png/usa,Group E
+18,VIE,Vietnam,https://countryflagsapi.com/png/vietnam,Group E
+19,NED,Netherlands,https://countryflagsapi.com/png/netherlands,Group E
+20,-,Play-off Group A winners,-,Group E
+21,FRA,France,https://countryflagsapi.com/png/france,Group F
+22,JAM,Jamaica,https://countryflagsapi.com/png/jamaica,Group F
+23,BRA,Brazil,https://countryflagsapi.com/png/brazil,Group F
+24,-,Play-off Group C winners,-,Group F
+25,SWE,Sweden,https://countryflagsapi.com/png/sweden,Group G
+26,RSA,South Africa,https://countryflagsapi.com/png/zaf,Group G
+27,ITA,Italy,https://countryflagsapi.com/png/italy,Group G
+28,ARG,Argentina,https://countryflagsapi.com/png/argentina,Group G
+29,GER,Germany,https://countryflagsapi.com/png/germany,Group H
+30,MAR,Morocco,https://countryflagsapi.com/png/morocco,Group H
+31,COL,Colombia,https://countryflagsapi.com/png/colombia,Group H
+32,KOR,South Korea,https://countryflagsapi.com/png/kor,Group H
