@@ -1,4 +1,4 @@
---Detailed info for a finished game
+--Group table
 SELECT
 Teams.country AS team,
 Teams.group_name,
