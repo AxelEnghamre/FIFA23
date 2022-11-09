@@ -1,4 +1,4 @@
-id,match_id,player_assist_id,player_shooter_id,shot_time,is_goal,team_id,recieving_team_id,is_during_overtime,is_penalty_during_play,is_penalty_shootout
+id,match_id,player_assist_id,player_shooter_id,shot_time,is_goal,team_id,receiving_team_id,is_during_overtime,is_penalty_during_play,is_penalty_shootout
 1,1,6,7,1689836640,FALSE,1,2,FALSE,FALSE,FALSE
 2,1,,10,1689836880,FALSE,1,2,FALSE,FALSE,FALSE
 3,1,,6,1689837120,FALSE,1,2,FALSE,FALSE,FALSE
