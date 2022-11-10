@@ -65,7 +65,7 @@ ON Shots_left.team_id = Teams.id
 LEFT JOIN (SELECT 
 	COUNT(
 	CASE
-	WHEN Shots.receiving_team_id
+	WHEN Shots.receiving_team_id AND Shots.is_goal
 	THEN TRUE
 	END) AS conceded_goals,
 	
