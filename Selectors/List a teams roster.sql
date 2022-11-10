@@ -16,7 +16,8 @@ CAST(Shots_left_receiving.conceded_shots AS FLOAT)) * 100
 AS "save_percentage_for_the_goalkeepers",
 
 COUNT(Players.id) AS "amount_of_players",
-COUNT(Disciplinaries.id) AS "amount_of_disciplinaries"
+
+Disciplinaries_left.disciplinaries_amount
 
 FROM Teams
 
@@ -76,9 +77,21 @@ ON Shots_left_receiving.receiving_team_id = Teams.id
 INNER JOIN Players
 ON Players.team_id = Teams.id
 
-LEFT JOIN Disciplinaries
-ON Disciplinaries.team_id = Teams.id
+LEFT JOIN (SELECT
+	team_id,
+	COUNT(
+	CASE
+	WHEN Disciplinaries.team_id = team_id AND 
+	(Disciplinaries.penalty_type = "yellow" OR Disciplinaries.penalty_type = "red")
+	THEN TRUE
+	END) AS disciplinaries_amount
+	
+	FROM Disciplinaries
+	GROUP BY Disciplinaries.team_id
 
-WHERE Teams.id = 4
+) AS Disciplinaries_left
+ON Disciplinaries_left.team_id = Teams.id
+
+WHERE Teams.id = 13
 
 GROUP BY Teams.id
