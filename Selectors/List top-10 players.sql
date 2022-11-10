@@ -1,6 +1,6 @@
 --List top 10 playesrs
 SELECT
-Players.team_id,
+Teams.country,
 Players.first_name,
 Players.last_name,
 
@@ -21,6 +21,9 @@ FROM Shots
 INNER JOIN Players
 ON Players.id = Shots.player_shooter_id
 OR Players.id = Shots.player_assist_id
+
+INNER JOIN Teams
+ON Teams.id = Players.team_id
 
 
 WHERE Shots.is_goal = 1
